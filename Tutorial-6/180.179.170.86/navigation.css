@@ -1,0 +1,314 @@
+.navigation-container{
+  max-width:1010px;
+  width:100%;
+  border-radius:8px;
+  background-color:#7b7b7b;
+  margin-bottom:1%;
+  position:relative;
+}
+.navigation{
+  float:left;
+  /*margin-top:1px;*/
+  width:100%;
+}
+.toggleMenu {
+    display:  none;
+  float:left;
+  margin-top:1px;
+  line-height:26px;
+  width:96%;
+  font-family:Open Sans, Tahoma, Verdana, Arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+  text-align:right;
+  padding-top:4px;
+}
+.nav {
+    list-style: none;
+     *zoom: 1;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+}
+.nav a {
+    font-family:Open Sans, Tahoma, Verdana, Arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+}
+.nav li ul li a {
+    font-family: Tahoma, Verdana, Arial;
+}
+.nav li {
+    position: relative;
+  line-height: 44px;
+  padding: 0%;
+  border-top:solid 1px #FFF;
+}
+.navigation ul li.home{
+  padding:0 0 0 3%;
+}
+.navigation ul li.home a{
+  width:31px;
+  height:44px;
+  background-image:url(../images/home-icon.jpg);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  display:block;
+}
+.nav > li {
+    float: left;
+}
+.nav > li > .parent {
+    background-repeat: no-repeat;
+    background-position: right;
+  background-position:center right;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav li  ul li ul{
+  border:none;
+  width:100%;
+}
+/*.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}*/
+.nav li li a {
+    display: block;
+    position: relative;
+    z-index:100;
+    color:#666;
+    width:170px;
+    padding:3px 11px!important;
+
+}
+.nav li li li a {
+    z-index:200;
+  color:#666;
+}
+
+@media screen and (min-width: 769px) {
+  .nav > li.hover > ul {
+    left: 0px;
+  }
+  .nav > li.party.hover > ul {
+    left: -85px;
+  }
+  .nav li a:hover{
+    background-color:#ff9933;
+  }
+  .nav li ul li a:hover{
+    background-color:transparent;
+    text-decoration:underline;
+  }
+  .navigation ul li.home a:hover{
+    background-color:#7B7B7B;
+  }  
+  .nav li a{
+    padding:0 20px;
+  }
+  .navigation ul li.home a{
+    padding-right:0px;
+  }
+  .nav li ul {
+                /*height:272px;*/
+                height:auto;
+    padding:10px;
+                width:200px;
+    border-radius:7px;
+    border: solid 1px #ff9933;
+    border-bottom:solid 7px #ff9933;
+    z-index:99999;
+    background-color:#FFF;
+  }
+        .nav li.party ul {
+            width:900px;
+        }
+  .nav li ul li{
+    font-family:Tahoma, Verdana, Arial;
+    font-size:15px;
+    padding:0px;
+    margin:0px;
+    line-height:25px;
+  }  
+  .nav li ul li a{
+    color:#ff9933;
+    padding:0px;
+    margin:0px;
+  }  
+  .nav li ul li ul{
+    left:0px;
+    padding:0px 0 10px 0px;
+    margin:0px;
+    background:none;
+    position:relative;
+    height:auto;
+	max-width:150px;
+  }
+  .nav li ul li ul li{
+	line-height: 15px;
+	font-size: 12px;
+  }
+  .nav li ul li ul li a{
+    text-transform:none;
+    color:#575757;
+    font-size:12px;
+  }
+  .first-col{
+    float:left;
+                width:20%;
+    border-right:dashed 1px #CCCCCC;
+    margin-right:2%;
+    min-height:260px;
+  }
+  .second-col{
+    float:left;
+                width:25%;
+    border-right:dashed 1px #CCCCCC;
+    margin-right:2%;
+    min-height:260px;
+  }
+  .second-col li h2 a{
+    line-height:16px;
+    padding-bottom:2px;
+  }
+  .second-col li p a{
+    line-height:16px;
+    font-size:10px;
+  }
+  .second-col-left{
+    float:left;
+    width:55%;
+  }
+  .second-col-left li{
+    padding-bottom:15px !important;
+  }
+  .second-col-left li img{
+    float:left;
+    margin-right:3%;
+  }
+  .second-col-right{
+    float:left;
+    width:45%;
+  }
+  .third-col{
+    float:left;
+                width:25%;
+    border-right:dashed 1px #CCCCCC;
+    margin-right:2%;
+    min-height:260px;
+  }
+  .fourth-col{
+    float:left;
+                width:20%;
+    min-height:260px;
+  }
+  li.homelink{
+    display:none;
+  }
+  .nav li{
+    border-top:none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("../images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+  li.home{
+    display:none;
+  }
+  .nav li{
+    line-height:35px;
+  }
+  .nav li ul li{
+    background-color:#8F8B8B;
+  }
+  .nav li ul li ul li{
+    background-color:#a8a8a8;
+  }
+  .nav li a{
+    padding-left:10px;
+  }
+  .nav li ul li a{
+    color:#FFF;
+  }
+  .nav li ul li img{
+    display:none;
+  }
+  .nav li ul li h2{
+    font-weight:normal;
+    padding:5px 0 0 0px;
+    margin:0px;
+    line-height:22px;
+  }
+  .nav li ul li p{
+    padding:0 0 5px 0px;
+    margin:0px;
+    line-height:22px;
+  }
+  .nav > li > .parent {
+    background-image: url("../images/downArrow.png");
+  }
+  .nav > li.item-143.hover > ul{
+	  margin-left:0px !important;
+  }
+  .nav li li a {
+	  width:93%;
+  }
+
+}
+@media screen and (min-width: 769px) and (max-width: 885px) {
+  .navigation{
+    width:100%;
+  }
+  .navigation ul li a{
+    padding:0 4px;
+  }
+}
+@media screen and (min-width: 886px) and (max-width: 1040px) {
+  .navigation ul li a{
+    padding:0 13px;
+  }
+}
+.navigation-container .nav > li.active{
+    background: #ff9934;
+}

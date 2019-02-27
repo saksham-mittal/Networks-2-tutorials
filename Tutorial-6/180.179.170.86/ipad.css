@@ -1,0 +1,255 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+	body{
+		background-position:left -10px;
+	}
+	.top-links{
+		float:none;
+		width:100%;
+		max-width:768px;
+	}
+	.top-right-links{
+		float:none;
+		width:100%;
+		max-width:768px;
+	}
+	.navigation-container{
+		margin-bottom:1% !important;
+	}
+	.left-container{
+		width:48%;
+		min-height:521px;
+	}
+	.middle-container{
+		width:47%;
+	}
+	.right-container{
+		float:none;
+		clear:both;
+		width:100%;
+		padding-top:1%;
+	}
+	.guiding-lights-container{
+		width:46%;
+		float:left;
+		margin-right:1%;
+	}
+	.connect-with-us{
+		width:41%;
+		float:left;
+	}
+	.calender{
+		padding-bottom:2.3%;
+	}
+	.jointxt {max-width:none; width:60%;}
+	.rightVideo{max-width:none; width:39%;}
+	.inner-left-container{
+		width:98%;
+		max-width:768px;
+		border:none;
+		padding:0%;
+	}
+	.inner-right-container{
+		display:none;
+	}
+	.share-container{
+		display:none;
+	}
+	.inner-head-icons{
+		display:none;
+	}
+	.inner-banner{
+		float:none;
+		width:100%;
+	}
+	.inner-advertisement{
+		float:none;
+		width:100%;
+	}
+	.advertise-box{
+		width:11.7%;
+		margin-right:1%;
+	}
+	.inner-mid-container {
+		width: 74%;
+		max-width: none;
+		border-right: 0 none;
+	}
+	.inner-left-block {
+		max-width: none;
+		width: 14%;
+	}
+	.inner-mid-container1 {
+		float: none;
+		max-width: none;
+		padding: 10px 0 0;
+		width: 99%;
+		border: 0px none;
+		margin: 0 auto;
+	}
+	.formleft, .formright {
+		float: none;
+		max-width: none;
+		width: 98%;
+		margin: 0 auto;
+	}
+        .login-popup{position:absolute; top:25px; right:-252px; width:298px; height:170px; z-index:9999;}
+        .txt0_login{font-size:0; transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; float: none;}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 650px){
+	.advertise-box{
+		width:28.3%;
+		margin-right:1%;
+	}
+	.inner-mid-container{
+		width:68%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+	.search-candidate input.candidate-searchbox{
+		width:80%;
+	}
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 650px){
+	.volunteer img{
+		width:38%;
+	}
+	.my-bjp img{
+		width:61%;
+	}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 550px){
+	.media-head h2{
+		float:none;
+	}
+	.media-head select.select{
+		float:none;
+		top:10px;
+		left:0px;
+		margin-bottom:10px;
+	}
+	.media-head span.select{
+		left:0px;
+		top:10px;
+	}
+
+}
+	
+@media screen and (min-width: 481px) and (max-width: 705px){
+	.header{
+		text-align:center;
+	}
+	.header img{
+		float:none;
+	}
+	.header form{
+		padding-top:10px;
+		margin-left:30%;
+	}
+	.header form .focusdiv{
+	}
+	footer{
+		margin-top:5%;
+		margin-bottom:3%;
+	}
+	.footer-navigation{
+		margin-bottom:3%;
+	}
+	.footer-nav-links{
+		min-height:205px;
+		padding:0 2%;
+		width:26%;
+		margin-top:3%;
+	}
+	.copyright-conatiner{
+		padding:0 3%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.inner-left-block {
+		max-width: none;
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 15px;
+	}
+	.inner-left-block ul li {
+		float: left;
+		padding: 0;
+	}
+	.inner-left-block ul li a {
+		float: left;
+		padding: 0 30px 0 0;
+		margin-right: 10px;
+	}
+	.inner-mid-container {
+		width: 100%;
+		float: none;
+		clear: both;
+		border: 0 none;
+		border-top: 1px dashed #CCC;
+		padding: 10px 0 0;
+		margin: 0 auto;
+	}
+	.formleft, .formright {
+		float: none;
+		max-width: none;
+		width: 98%;
+		margin: 0 auto;
+	}
+	.media-press-releases{
+		width:96%;
+		float:none;
+		margin-bottom:20px;
+	}
+	.media-video-releases{
+		float:none;
+		width:96%;
+	}
+	.media-public-forum{
+		width:29.5%;
+		margin-bottom:15px;
+	}
+	.media-public-forum1{
+		width:62%;
+		max-width:250px;
+	}
+	.media-public-forum1 img{
+		width:100%;
+		max-width:195px;
+	}
+	/*.pika-stage{
+		height:auto !important;
+	}
+	.pika-stage img{
+		width:100%;
+		margin-bottom:15px;
+		max-width:768px;
+	}
+	.pika-stage .caption{
+		display:none !important;
+	}*/
+.donationformleft{float:none; max-width:none; width:100%; padding:0;}
+.helplineblock{float:none; max-width:none; width:100%; margin:15px 0 0 0;}
+
+.inner-left-block {
+	display:none;
+}
+
+.inner-mid-container2 {
+    border-left:none 0px;
+    padding: 0 0 0 1%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+.splash_header img {width:100%; float:left; height:auto; max-width:400px;}
+.fight_left {width:51.5%;}
+.fight_right {width:45%;}
+}

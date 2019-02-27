@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+#sobiProFooter{
+	display:none;   
+}
+.article-block span strong {color: #138808 !important;font-size: 16px}
+.article-block strong span  {color: #138808 !important;font-size: 16px}
+.article-block img {margin: 10px;}
+.loginIn .left
+{
+	max-width:175px;
+}
+.loginIn .logininputfield
+{
+	margin-left:0px;
+}
+input[type=text], input[type=textarea], select, input[type=email], input[type=password]
+{
+	color:#575757 !important;
+}
+.formrgttxt .select_seat
+{
+	opacity:1  !important;
+}
+#comments-form textarea{
+    max-width: 550px !important;
+    width: 99%;
+    border: 1px solid #dfdfdf;
+    padding:5px;
+}
+#comments-form .grippie{background:none;border: none}
+#comments .refresh{display: none}
+#comments .subscribe{display: none}
+#comments-form img.captcha{margin: 0 10px 3px 0px}
+#comments-form input{
+    border: 1px solid #dfdfdf;
+    max-width: 175px;
+    padding: 5px !important;
+    width: 100%;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    color: #575757;
+}
+#comments-form p{margin-top: 15px;}
+
+.socialProfile{ float:left; width:350px; margin:0 10px 10px 0;}
+
+img#imgver_ + img
+{ display: none;
+}
+img#imgver_ 
+{ border: 1px solid #ccc;
+}
+
+#map-canvas :first-child
+{
+position: relative !important;
+}
+.captchaImg
+{
+	border: 1px solid #CCC;
+}
+.sitemap ul{
+    padding:0px;
+}
+.sitemap ul li{
+    padding: 5px 0px 5px 15px;
+}
+.sitemap ul li:last-child{
+    padding: 0px 0px 0px 15px;
+}
+.sitemap ul li:last-child{
+    padding: 5px 5px 0px 15px;background: url("../images/arrow.jpg") no-repeat scroll 0px 5px transparent;
+    
+}
+.sitemap img{margin:0px}
+.sitemap h2{ margin-top: 15px;}
+
+.connect-with-us .subhead a, .social-stream .subhead a, .media-head .subhead a , .president-office .subhead a
+{
+color: #138808;
+text-decoration: none;
+}
+.customformrgttxtt {
+    max-width: 100%;
+    padding-right: 20px;
+    width: auto;
+}
+#system-message-container
+{
+color:#E80608;
+font: 13px normal Tahoma,Verdana,Arial;
+}
+#system-message > dt
+{
+display: none;
+}
+/*.cf_alert
+{
+    display: none;
+}*/
+.plg_fa_karmany{
+    padding-top: 1em;
+}
+#system-message-container .error{
+    padding: 10px;
+    margin: 0px;
+    border: solid 1px #FBD3C6;
+    background: #FDE4E1;
+    color: #CB4721;
+    text-align: center;
+}
+#system-message-container .message{
+    padding: 10px;
+    margin: 0px;
+    border:solid 1px #E8C07B;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    text-align: center;
+}
+#system-message-container .success{
+    padding: 10px;
+    margin: 0px;
+    border:solid 1px #C0F0B9;
+    background:#D5FFC6;
+    color: #48A41C;
+    text-align: center;
+}
+
+#system-message-container .notice{
+    padding: 10px;
+    margin: 0px;
+    border: solid 1px #EB9A0A;
+    background: #FCE9B9;
+    color: #F84C09;
+    text-align: center;
+}
+
+/* social login for comment */
+
+#signin-button{margin-top: 10px;margin-left: 4px;}
+.comment-login div{float:left}
+.comment-login img{height: 20px;margin:0px; margin-top: 10px;margin-left: 4px;}
+.comment-logout{display: none}
+.comment-logout .name{margin-top: 10px;margin-left: 0px !important;font-weight: bold;}
+.comment-logout > img{margin:10px 20px}
+.floatl{float: left}
+#customBtn {
+    display: inline-block;
+    background: #cc3732;
+    color: white;
+    width: 87px;
+    padding-left: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+span.icon {
+    background: url('<?php echo $this->baseurl ?>/templates/bjp/images/btn_icons_sprite.png') transparent 0 0px no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 23px;
+}
+span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+}
+.social-auth{min-height: 75px}
+
+#Id1 .grnheading, #Id1 .content, #Id2 .grnheading, #Id2 .content, .tab_donation ul
+{
+    display: none !important;
+}
+
+.media-centre .media-releases >p
+{
+    font-weight: bold;
+    color:#575757;
+}
+
+.media-centre .media-releases > p >a
+{
+    font-weight: normal;
+}
+.ui-datepicker-month
+{
+    float: right !important;
+}
+.result-title a{color:rgb(87, 87, 87);text-transform: none; font-family: Tahoma;font-size: 14px}
+.result-title a:hover{color:rgb(255, 153, 52)}
+.cf_alert ol{
+    padding: 10px;
+    margin: 0px;
+    border: solid 1px #FBD3C6;
+    background: #FDE4E1;
+    color: #CB4721;
+    text-align: center;
+}
+.candidate-msg
+{
+    font-weight: bold;
+    color: #138808 !important;
+    padding: 0 !important;
+}
+.candidiate p
+{
+    font-size: 12px;
+    color: #575757;
+    padding-bottom: 0px;
+    font-family: Tahoma, Verdana, Arial;
+    padding-top: 0px;
+    line-height: 18px;
+}
+.candidiate-details
+{
+    float: left;
+    width: 50%;
+}
+
+#jflanguageselection
+{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    width: 8em;
+    /* margin-top: -2.5em; */
+    width: auto;
+}
+
+#active_language
+{
+    display: none !important;
+}
+.rawimages img
+{
+    margin: 0px;
+}
+.top-links ul li.submenu {
+  background-position: right 15px;
+}
+.search-filter .date1
+{
+    width: 125px;
+}

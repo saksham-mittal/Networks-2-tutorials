@@ -1,0 +1,62 @@
+Connection established to server
+Connection established to server
+Thread 4 downloading the object /AU%20Prospectus.pdf
+Connection established to server
+Thread 6 downloading the object /2015-2019%20ACADEMIC%20CALENDAR.pdf
+Connection established to server
+Thread 1 downloading the object /undergrad_app.pdf
+Thread 2 downloading the object /app_graduate.pdf
+Connection established to server
+Thread 5 downloading the object /events/eventTest.html
+Connection established to server
+Thread 3 downloading the object /internationalStudents.html
+Writing to file 185.62.238.50/eventTest.html completed by thread 5
+Thread 5 downloading the object /admissionrequirements.html
+Writing to file 185.62.238.50/internationalStudents.html completed by thread 3
+Thread 3 downloading the object /financialassistance.html
+Writing to file 185.62.238.50/admissionrequirements.html completed by thread 5
+Thread 5 downloading the object /continuingEducation.html
+Writing to file 185.62.238.50/financialassistance.html completed by thread 3
+Thread 3 downloading the object /howtoapply.html
+Writing to file 185.62.238.50/howtoapply.html completed by thread 3
+Thread 3 downloading the object /applyonline.html
+Writing to file 185.62.238.50/continuingEducation.html completed by thread 5
+Thread 5 downloading the object /vacancies.html
+Writing to file 185.62.238.50/applyonline.html completed by thread 3
+Thread 3 downloading the object /studentlife.html
+Writing to file 185.62.238.50/app_graduate.pdf completed by thread 2
+Thread 2 downloading the object /accommodation.html
+Thread 2 is retrying to download the object /accommodation.html
+Writing to file 185.62.238.50/studentlife.html completed by thread 3
+Thread 3 downloading the object /foodservices.html
+Writing to file 185.62.238.50/undergrad_app.pdf completed by thread 1
+Thread 1 downloading the object /studenthealth.html
+Thread 1 is retrying to download the object /studenthealth.html
+Writing to file 185.62.238.50/accommodation.html completed by thread 2
+Thread 2 downloading the object /sports.html
+Writing to file 185.62.238.50/vacancies.html completed by thread 5
+Thread 5 downloading the object /clubs.html
+Writing to file 185.62.238.50/foodservices.html completed by thread 3
+Thread 3 downloading the object /about_research.html
+Writing to file 185.62.238.50/studenthealth.html completed by thread 1
+Thread 1 downloading the object /aurec.html
+Writing to file 185.62.238.50/sports.html completed by thread 2
+Thread 2 downloading the object /funding_opportunities.html
+Writing to file 185.62.238.50/clubs.html completed by thread 5
+Thread 5 downloading the object /intellectual_property_mgmt.html
+Writing to file 185.62.238.50/about_research.html completed by thread 3
+Thread 3 downloading the object /academics.html
+Writing to file 185.62.238.50/aurec.html completed by thread 1
+Thread 1 downloading the object /departmentOfAgricultureAndNaturalResources.html
+Writing to file 185.62.238.50/funding_opportunities.html completed by thread 2
+Thread 2 downloading the object /chans.html
+Writing to file 185.62.238.50/intellectual_property_mgmt.html completed by thread 5
+Thread 5 downloading the object /departmentOfHealthSciences.html
+Writing to file 185.62.238.50/academics.html completed by thread 3
+Thread 3 downloading the object /departmentOfBusinessSciences.html
+Writing to file 185.62.238.50/departmentOfBusinessSciences.html completed by thread 3
+Writing to file 185.62.238.50/chans.html completed by thread 2
+Writing to file 185.62.238.50/departmentOfAgricultureAndNaturalResources.html completed by thread 1
+Writing to file 185.62.238.50/departmentOfHealthSciences.html completed by thread 5
+Writing to file 185.62.238.50/2015-2019%20ACADEMIC%20CALENDAR.pdf completed by thread 6
+Writing to file 185.62.238.50/AU%20Prospectus.pdf completed by thread 4

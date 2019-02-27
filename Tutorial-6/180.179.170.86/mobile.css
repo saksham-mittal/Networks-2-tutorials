@@ -1,0 +1,351 @@
+
+@media screen and (max-width: 480px) {
+body {
+    background-position: left -85px;
+}
+.topheader {
+    display: none;
+}
+.inner-left-suggestion {
+    display: none;
+}
+.inner-mid-suggestion {
+    border-left: 0 none;
+    float: none;
+    max-width: 707px;
+    padding: 0;
+    width: 100%;
+}
+.emailright {
+    float: none;
+}
+.mbclear{clear: both;}
+#bjp_membership_now_container_div div {
+    margin-right: 51px;
+}
+.formrgttxt1 {
+    width: 68%;
+}
+.formrgttxt2 {
+    float: none;
+}
+.padR {
+    padding-right: 0;
+}
+.amount1 {
+    border-bottom: 1px dashed #D9D9D9;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-left: -25px;
+    max-width: 966px;
+    padding-bottom: 18px;
+    padding-left: 27px;
+    padding-right: 227px;
+    width: 100% !important;
+}
+.formrgttxtt {
+    float: none !important;
+    width: 55% !important;
+}
+.formrgttxtn {
+    float: none !important;
+    margin-left: 0 !important;
+    margin-top: 15px !important;
+    max-width: 147px !important;
+    width: 50% !important;
+}
+.hidden.brdtop {
+    width: 220px;
+}
+.left {
+    float: none;
+}
+@media screen and (min-width: 395px) and (max-width: 480px) {
+.formlfttxt2 {
+    width: 36%;
+}
+}
+@media screen and (min-width: 280px) and (max-width: 320px) {
+.emailleft {
+    width: 80% !important;
+}
+.join-party {
+    min-height: 94px !important;
+}
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+.emailleft {
+    width: 50% !important;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 340px) {
+.grn_txt {
+    display: none;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+.helplineblock {
+    display: none;
+}
+.formrgttxt {
+    float: none;
+}
+.formrgttxt .select_seat {
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 352px) {
+.donationformleft {
+    width: 74%;
+}
+}
+@media screen and (min-width: 440px) and (max-width: 480px) {
+.txtbjp {
+    width: 38% !important;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 439px) {
+.txtbjp {
+    float: none;
+    width: 41% !important;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+.formlfttxt2 {
+    width: 48% !important;
+}
+}
+@media screen and (min-width: 396px) and (max-width: 420px) {
+.formrgttxt .volunt span.select {
+    background: url("../images/volunt-back-mobile.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    max-width: none;
+    width: 100%;
+}
+}
+@media screen and (max-width: 480px) {
+.formlfttxt {
+    float: none !important;
+    max-width: none;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.formrgttxt, .formbrdtxt {
+    width: 100%;
+}
+.formrgttxt .volunt span.select {
+    background: url("../images/volunt-back.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    max-width: 215px;
+    width: 100%;
+}
+.join-party {
+    /*min-height: 110px;*/
+    min-height: 94px;
+}
+
+}
+@media screen and (max-width: 398px) {
+body {
+    background-position: left -85px;
+}
+.top-links {
+    padding-bottom: 10px;
+}
+.top-links ul li {
+    line-height: 25px;
+}
+}
+.top-right-links {
+    float: none;
+    max-width: 768px;
+    width: 100%;
+}
+.header {
+    text-align: center;
+}
+.header img {
+    max-width: 349px;
+    width: 100%;
+}
+.header form {
+    margin-left: 15%;
+    padding-top: 10px;
+}
+.banner-container {
+    float: none;
+    width: 100%;
+}
+.advertisement-conatiner {
+    padding-top: 2%;
+}
+.advertisement {
+    float: none;
+    max-width: 436px;
+    padding-top: 3.2%;
+    width: 98%;
+}
+.join-party {
+    width: 42%;
+}
+.join-party img {
+    width: 30%;
+}
+.volunteer {
+    min-height: 95px;
+    width: 42%;
+}
+.volunteer img {
+    width: 71%; 
+}
+.modi-vision img {
+    width: 83%;
+}
+.volunteer p {
+    min-height: 25px;
+}
+.my-bjp {
+    display: none;
+    min-height: 86px;
+}
+.calender {
+    display: none;
+    min-height: 86px;
+}
+.donation {
+    margin-right: 3%;
+    margin-top: 2%;
+    min-height: 95px;
+    width: 42%;
+}
+.donation p {
+    min-height: 23px;
+}
+.donation img {
+    width: 46%;
+}
+.search-candidate {
+    display: none;
+}
+.your-suggestions {
+    display: none;
+}
+.perspective {
+    margin-top: 2%;
+    min-height: 95px;
+    width: 42%;
+}
+.perspective img {
+    width: 83%;
+}
+.mid-content {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+}
+.left-container {
+    float: none;
+    width: 97%;
+}
+.middle-container {
+    float: none;
+    padding-top: 3%;
+    width: 100%;
+}
+.right-container {
+    display: none;
+    float: none;
+    padding-top: 3%;
+    width: 100%;
+}
+footer {
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.footer-navigation {
+    margin-bottom: 3%;
+}
+.footer-nav-links {
+    margin-top: 7%;
+    min-height: 209px;
+    padding: 0 3%;
+    width: 40%;
+}
+.copyright-conatiner {
+    padding: 0 3%;
+}
+.share-container {
+    display: none;
+}
+.inner-head-icons {
+    display: none;
+}
+.inner-left-container {
+    border: medium none;
+    max-width: 480px;
+    padding: 0;
+    width: 99%;
+}
+.inner-right-container {
+    display: none;
+}
+.inner-banner {
+    float: none;
+    width: 100%;
+}
+.inner-advertisement {
+    float: none;
+    width: 100%;
+}
+.advertise-box {
+    margin-right: 1%;
+    width: 28.3%;
+}
+.facebook-container {
+    display: none;
+}
+.datebirthinput {
+    max-width: none;
+    width: 75%;
+}
+.formrgttxt, .formbrdtxt {
+    width: 185%;
+}
+.map {
+    display: none;
+}
+.issues-conatiner {
+    border: medium none;
+    max-width: 768px;
+    width: 100%;
+}
+#jevents_body, .item-pageissues-listing-page, .items-leading, .inner-left-container, .issues-conatiner {
+    max-width: 768px;
+    width: 100%;
+}
+#roksearch_results {
+    left: 0 !important;
+    margin-left: 5%;
+    width: 90%;
+}
+.plg_fa_karmany span {
+    display: none;
+}
+.socialProfile {
+    width: 100% !important;
+}
+.jointxt {
+    float: none;
+    max-width: none;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.rightVideo {
+    max-width: none;
+    width: 100%;
+}
+#wowslider-container1 .ws_bullets {
+    display: none !important;
+}
+.inner-left-block {
+    display: none;
+}
+}

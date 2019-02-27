@@ -1,0 +1,70 @@
+.plg_fa_karmany span{
+	float: right;
+}
+.plg_fa_karmany_titulo{
+	margin-right: 3px;
+}
+.plg_fa_karmany_mas{
+	margin-right: 1px;
+}
+.plg_fa_karmany_mas a{
+	background: url(../articlepxfontsize_j16/mas09.png) no-repeat left top !important;
+	height: 18px;
+	width: 18px;
+	display: block;
+	text-decoration: none;
+}
+.plg_fa_karmany_mas a:hover{
+	background: url(../articlepxfontsize_j16/mas09.png) no-repeat left -18px !important;
+}
+.plg_fa_karmany_mas a:active{
+	background: url(../articlepxfontsize_j16/mas09.png) no-repeat left -36px !important;
+}
+.plg_fa_karmany_menos a{
+	background: url(../articlepxfontsize_j16/menos09.png) no-repeat left top !important;
+	height: 18px;
+	width: 18px;
+	display: block;
+	text-decoration: none;
+}
+.plg_fa_karmany_menos a:hover{
+	background: url(../articlepxfontsize_j16/menos09.png) no-repeat left -18px !important;
+}
+.plg_fa_karmany_menos a:active{
+	background: url(../articlepxfontsize_j16/menos09.png) no-repeat left -36px !important;
+}
+.plg_fa_karmany_igual{
+	margin-right: 1px;
+}
+.plg_fa_karmany_igual a{
+	background: url(../articlepxfontsize_j16/igual09.png) no-repeat left top !important;
+	height: 18px;
+	width: 18px;
+	display: block;
+	text-decoration: none;
+}
+.plg_fa_karmany_igual a:hover{
+	background: url(../articlepxfontsize_j16/igual09.png) no-repeat left -18px !important;
+}
+.plg_fa_karmany_igual a:active{
+	background: url(../articlepxfontsize_j16/igual09.png) no-repeat left -36px !important;
+}
+.karmany_clearboth{
+	clear: both;
+}
+.plg_fa_karmany_visual{
+	margin: -5px 3px 0px 5px;
+}
+.plg_fa_karmany_visual a{
+	background: url(../articlepxfontsize_j16/visual01.png) no-repeat left top !important;
+	height: 30px;
+	width: 30px;
+	display: block;
+	text-decoration: none;
+}
+.plg_fa_karmany_visual a:hover{
+	background: url(../articlepxfontsize_j16/visual01.png) no-repeat left -33px !important;	
+}
+.plg_fa_karmany_visual a:active{
+	background: url(../articlepxfontsize_j16/visual01.png) no-repeat left -66px !important;
+}
