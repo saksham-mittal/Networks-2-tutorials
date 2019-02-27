@@ -1,9 +1,3 @@
-/* 
-    To run the client file:
-    gcc client.c -o client -std=c++11 -pthread
-    To execute:
-    ./client
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
