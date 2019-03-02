@@ -43,20 +43,16 @@ void downloadWesite(int thID, string hostName, vector<string> objPaths) {
     else
         fprintf(fptr, "Connection established to server\n");
 
-    bool retry = false;
     while(j < objPaths.size()) {
-        if(!retry) {
-            mtx.lock();
-            j = counter;
-            counter++;
-            mtx.unlock();
-        }
+        mtx.lock();
+        j = counter;
+        counter++;
+        mtx.unlock();
 
         if(j >= objPaths.size())
             break;
 
-        if(!retry)
-            fprintf(fptr, "Thread %d downloading the object %s\n", thID, (char*)objPaths[j].c_str());
+        fprintf(fptr, "Thread %d downloading the object %s\n", thID, (char*)objPaths[j].c_str());
 
         string objectPath = objPaths[j];
         string headRequestPath = "HEAD " + objectPath + " HTTP/1.1\r\nHost: " + hostName + "\r\n\r\n";
@@ -72,23 +68,24 @@ void downloadWesite(int thID, string hostName, vector<string> objPaths) {
                 bzero(buffer, 5000);
                 int numBytes = recv(sockid, buffer, sizeof(buffer) - 1, 0);
                 if (numBytes <= 0 ) {
-                    if(numBytes < 0)
-                        cout << "Receive not successful" << endl;
+                    cout << "Receive not successful" << endl;
                     throw(-1);      // Means exception in receiving
                 }
 
                 // Initialising with '\0' character
                 buffer[numBytes] = '\0';
+
                 // Converting buffer to string for easy string manipulation
                 string content(buffer);
-
-                // fprintf(fptr, "%s", buffer);
 
                 // Finding the size of content using the content length feild in the HEAD request
                 if(content.find("Content-Length: ") == string::npos) 
                     throw(-1);
                 
                 int index = content.find("Content-Length: ") + 16;
+                    
+                if(content.find("\n", index) == string::npos)
+                    throw(-1);
 
                 string sizeOfContent = content.substr(index , content.find("\n", index) - index);
                 int size = stoi(sizeOfContent);
@@ -127,10 +124,8 @@ void downloadWesite(int thID, string hostName, vector<string> objPaths) {
                     bzero(buffer, 5000);
                     bytesReceived = recv(sockid, buffer, sizeof(buffer), 0);
                     if(bytesReceived <= 0) {
-                        if(bytesReceived < 0)
-                            cout << "Receive not successful" << endl;
+                        cout << "Receive not successful" << endl;
                         throw(-1);      // Means exception in receiving
-                        return;
                     }
 
                     c++;
@@ -142,23 +137,24 @@ void downloadWesite(int thID, string hostName, vector<string> objPaths) {
                             fileOut << buffer[i];
                     } else {
                         // For the first buffer, the meta data is also fetched
-                        if(string_data.find("\r\n\r\n") == string::npos) 
+                        if(string_data.find("\r\n\r\n") == string::npos) {
                             throw(-1);
+                        } 
                         int start = string_data.find("\r\n\r\n") + 4;
                         for (int i=start; i < bytesReceived; i++)
                             fileOut << buffer[i];
+
+                        // Subtracting the header size from the num of bytes received
+                        numBytes -= start;
                     }
                 }
                 fileOut.close();
 
                 fprintf(fptr, "Writing to file %s completed by thread %d\n", (char*)filePath.c_str(), thID);
-                retry = false;
             }
         }
         catch(...) {
-            retry = true;
-            fprintf(fptr, "Thread %d is retrying to download the object %s\n", thID, (char*)objPaths[j].c_str());
-            continue;
+            fprintf(fptr, "Exception...\n");
         }
     }
     close(sockid);
