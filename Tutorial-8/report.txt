@@ -1,0 +1,25 @@
+For the host intranet.iith.ac.in
+
+* For downloading /files/home/MCM.pdf object
+If the file is not available in the proxy server cache, then time taken = 107389 microseconds
+Else, Time taken = 38781 microseconds
+
+* For downloading /files/home/IFS.pdf
+If the file is not available in the proxy server cache, then time taken = 94537 microseconds
+Else, Time taken = 7706 microseconds
+
+* For downloading /files/home/SC_ST.pdf
+If the file is not available in the proxy server cache, then time taken = 81101 microseconds
+Else, Time taken = 16822 microseconds
+
+* For downloading /files/home/List_of_Holidays_2019.pdf
+If the file is not available in the proxy server cache, then time taken = 624497 microseconds
+Else, Time taken = 233944 microseconds
+
+* For downloading /files/home/List_of_Holidays_2018.pdf
+If the file is not available in the proxy server cache, then time taken = 957894 microseconds
+Else, Time taken = 404706 microseconds
+
+* For downloading /files/home/Draft_Senate_Manual_IITH.pdf
+If the file is not available in the proxy server cache, then time taken = 144097 microseconds
+Else, Time taken = 58547 microseconds
